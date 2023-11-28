@@ -20,6 +20,7 @@ class SpringbootMybatisQuickApplicationTests {
         list.stream().forEach(user -> {
             System.out.println(user);
             System.out.println(user);
+             System.out.println(user);
         });
 
     }
