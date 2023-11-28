@@ -19,6 +19,7 @@ class SpringbootMybatisQuickApplicationTests {
         List<User> list = userMapper.list();
         list.stream().forEach(user -> {
             System.out.println(user);
+            System.out.println(user);
         });
 
     }
